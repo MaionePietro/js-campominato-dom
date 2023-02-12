@@ -1,0 +1,27 @@
+*{
+    font-family: 'Press Start 2P', cursive;
+}
+
+.section_game.active {
+	display: block;
+}
+
+.section_game {
+	display: none;
+}
+
+.griglia > * {
+	/* width: calc(100% / 10); */
+	aspect-ratio: 1;
+	border: 2px solid white;
+    color: white;
+    background-color: #0963FD;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+}
+
+.trasparenza{
+    opacity: 0.3;
+}
